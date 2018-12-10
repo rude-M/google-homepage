@@ -1,6 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	padding: 10px;
+
 }
 
 a:link {
@@ -16,13 +16,16 @@ a:visited {
 
 
 .left {
+	padding-top: 10px;
+	padding-left: 10px;
 	height: 100px;
 	display: inline-block;
 	font-size: 0.8em;
-	clear: right;
+	
 }
 
 .right {
+	padding-top: 10px;
 	display: inline-block;
 	float: right;
 	margin-top: -10px;
@@ -34,6 +37,10 @@ a:visited {
 	position: relative;
 	top: -10px;
 	margin-right: 3px;
+}
+
+#Gmail {
+	padding: 0;
 }
 
 #Bilder {
@@ -52,18 +59,44 @@ a:visited {
 
 .core {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 .core form input {
-	width: 35%;
-	line-height: 150%;
+	width: 45%;
+	line-height: 350%;
+	margin-bottom: 25px;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 3px;
+	box-shadow: 2px 2px 3px 0.1px rgba(102,102,102,0.3);
 }
 
 a:visited {
 	font-style: none;
 }
 
-#Gmail {
-	padding: 0;
+button {
+	background-color: #f5f5f5;
+	line-height: 350%;
+	padding: 0 30px;
+	border: none;
+}
+
+.footer {
+	
+	margin-top: 350px;
+	background-color: #f5f5f5;
+	font-size: 0.9em;
+	font-weight: lighter;
+}
+
+.footer p{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#Deutsch {
+	display: block;
+	margin-bottom: 0;
+	padding: 10px;
 }
